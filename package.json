@@ -1,0 +1,62 @@
+{
+  "name": "live-hooks",
+  "version": "1.0.0",
+  "description": "Stale-closure-free React hooks: useLive, useLiveCallback, useLiveDebounce",
+  "license": "BSD-3-Clause",
+  "author": "Tal Davidson",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./useLive": {
+      "types": "./dist/useLive.d.ts",
+      "import": "./dist/useLive.mjs",
+      "require": "./dist/useLive.js"
+    },
+    "./useLiveCallback": {
+      "types": "./dist/useLiveCallback.d.ts",
+      "import": "./dist/useLiveCallback.mjs",
+      "require": "./dist/useLiveCallback.js"
+    },
+    "./useLiveDebounce": {
+      "types": "./dist/useLiveDebounce.d.ts",
+      "import": "./dist/useLiveDebounce.mjs",
+      "require": "./dist/useLiveDebounce.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "ts-jest": "^29.1.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  }
+}
