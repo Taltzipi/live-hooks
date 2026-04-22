@@ -58,5 +58,17 @@
     "ts-jest": "^29.1.0",
     "tsup": "^8.0.0",
     "typescript": "^5.4.0"
-  }
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-hooks",
+    "hooks",
+    "async",
+    "stale-closure",
+    "debounce",
+    "typescript",
+    "useevent",
+    "react-compiler"
+  ]
 }
