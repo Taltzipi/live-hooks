@@ -1,6 +1,6 @@
 {
   "name": "live-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stale-closure-free React hooks: useLive, useLiveCallback, useLiveDebounce",
   "license": "BSD-3-Clause",
   "author": "Tal Davidson",
