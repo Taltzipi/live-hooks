@@ -1,4 +1,4 @@
-# Live hooks — simple missing patterns for predictable hooks in React async code
+# Live hooks — simple missing patterns for predictable hooks in async React code
 
 One of the strongest ideas in React is how hooks let you compose behavior. A custom hook can expose a coherent interface — state and the methods that act on it — and callers get to reuse it without reaching for context, stores, or prop drilling.
 
